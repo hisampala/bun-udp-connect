@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    udp:
+      image: udp/monitor
+      build:
+        context: .
+        dockerfile: ./Dockerfile
